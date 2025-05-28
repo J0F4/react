@@ -1,0 +1,65 @@
+[
+  {
+    "ContainingType": "Tareas.Presentation.Controllers.TareasController",
+    "Method": "GetTareasAsync",
+    "RelativePath": "api/Tareas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tareas.Presentation.Controllers.TareasController",
+    "Method": "AddTareaAsync",
+    "RelativePath": "api/Tareas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tarea",
+        "Type": "Tareas.Domain.Entities.Tarea",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tareas.Presentation.Controllers.TareasController",
+    "Method": "DeleteTareaAsync",
+    "RelativePath": "api/Tareas/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tareas.Presentation.Controllers.TareasController",
+    "Method": "UpdatesTareaAsync",
+    "RelativePath": "api/Tareas/update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "tarea",
+        "Type": "Tareas.Domain.Entities.Tarea",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
